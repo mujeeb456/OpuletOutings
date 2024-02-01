@@ -1,0 +1,30 @@
+doctype html
+html
+  head
+    block head
+      meta(charset='UTF-8')
+      meta(name='viewport' content='width=device-width, initial-scale=1.0')
+      link(rel='stylesheet' href='/css/style.css')
+      link(href="https://db.onlinewebfonts.com/c/5fd740bac1abfb826fb7e35ae963efc9?family=ABChanel+Corpo+Regular")
+
+      link(rel='shortcut icon' type='image/png' href='/img/faviconblack.png')
+      link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:300,300i,700')
+      link(href='https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap', rel='stylesheet')
+      title OpulentOutings | #{title}
+
+  
+  body
+    //header
+    include header 
+
+
+    //content
+    block content 
+     
+
+    //footer
+    include footer
+
+    script(src='/js/axios-min.js')
+    script(type='module' src='/js/login.js')
+

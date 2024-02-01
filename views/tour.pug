@@ -1,0 +1,94 @@
+extends base
+
+include _reviewcard
+block append head
+
+mixin overviewBox(label, text, icon)
+  .overview-box__detail
+    svg.overview-box__icon
+      img(src=`/img/icons/${icon}.png`)
+    span.overview-box__label
+      | #{label} &nbsp;
+    span.overview-box__text=text
+
+
+block content
+  section.section-header
+    .header__hero
+      .header__hero-overlay &nbsp;
+      img.header__hero-img(src=`/img/tours/${tour.imageCover}`, alt=`${tour.name}`)
+
+    .heading-box
+      h1.heading-primary
+        span=`${tour.name}`
+      .heading-box__group
+        .heading-box__detail
+          svg.heading-box__icon
+            img(src='/img/icons/repeat.png')
+          span.heading-box__text= `${tour.duration}days `
+        .heading-box__detail
+          svg.heading-box__icon
+            img(src='/img/icons/pin.png')
+          span.heading-box__text= tour.startLocation.description
+
+  section.section-description
+    .overview-box
+      div
+        .overview-box__group
+          h2.heading-secondary.ma-bt-lg Quick facts
+
+          +overviewBox('Next date',tour.startDates[0].toLocaleString('en-US', { month: 'short', year: 'numeric' }),'calender')
+          +overviewBox('Difficulty',tour.difficulty,'difficulties')
+          +overviewBox('Participants',`${tour.maxGroupSize} people`,'silhouette')
+          +overviewBox('Rating',`${tour.ratingsAverage}`,'star')
+
+        .overview-box__group
+          h2.heading-secondary.ma-bt-lg Your tour guides
+            p
+              .overview-box__detail
+                span.overview-box__label Lead guide
+                span.overview-box__text Steven Miller
+              .overview-box__detail
+                span.overview-box__label Tour guide
+                span.overview-box__text Lisa Brown 
+           
+    .description-box
+      h2.heading-secondary.ma-bt-lg=`About ${tour.name} tour`
+      - const paragraphs=tour.description.split('\n')
+      each p in paragraphs 
+        p.description__text= p
+        img(src='/img/brand-name.png',height="80px",width="300px")
+  p.border=p
+      
+  section.section-pictures
+    each img, i in tour.images  
+      .picture-box
+        img.picture-box__img(src=`/img/tours/${img}`, alt=`The parl ${i+1}`,
+        class=`.picture-box__img--${i+1}`)
+  .complete-map
+    for location in tour.locations
+     .hovering
+      section.stop-details
+        .day-heading
+          img.day-pin(src='/img/icons/location4.png')
+          span Day#{location.day}
+          span.place #{location.description}
+          span.place(style=`color: #864d25;`) #{location.coordinates}
+  p.spec-border 
+  section.section-reviews
+    .reviews
+      each review in tour.reviews
+        +reviewCard(review)
+
+
+  section.section-cta
+    .cta
+      img.cta__img.cta__img--1(src=`/img/tours/${tour.images[1]}`, alt='adventur picture')
+      img.cta__img.cta__img--2(src=`/img/tours/${tour.images[2]}`, alt='adventure picture')
+      .cta__content
+        h2.heading-secondary What are you waiting for?
+        p.cta__text= `${tour.duration} days. 1 adventure. Infinite memories. Make it yours today!`
+      if user
+        button.btn.btn--green.span-all-rows#book-tour(data-tour-id=`${tour.id}`) Book tour now!
+      else
+        a.btn.btn--green.span-all-rows(href='/login') Log in to book

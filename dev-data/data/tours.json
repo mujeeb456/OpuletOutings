@@ -1,0 +1,82 @@
+{
+    "startLocation": {
+        "description": "Queenstown, New Zealand",
+        "type": "Point",
+        "coordinates": [
+            168.6626,
+            -45.0312
+        ],
+        "address": "Lake Esplanade, Queenstown, Otago 9300, New Zealand"
+    },
+    "ratingsAverage": 5.0,
+    "ratingsQuantity": 10,
+    "images": [
+        "ultimate-adventure-1.jpg",
+        "ultimate-adventure-2.jpg",
+        "ultimate-adventure-3.jpg"
+    ],
+    "startDates": [
+        "2024-08-01T09:00:00.000Z",
+        "2024-09-05T09:00:00.000Z",
+        "2024-10-10T09:00:00.000Z"
+    ],
+    "_id": "5c8a3c94e421eb4dc1a82579",
+    "name": "Ultimate Adventure Expedition",
+    "duration": 7,
+    "maxGroupSize": 20,
+    "difficulty": "challenging",
+    "guides": [
+        "5c8a1f4e2f8fb814b56fa188",
+        "5c8a233e2f8fb814b56fa18e"
+    ],
+    "price": 1299,
+    "summary": "Embark on the best adventure tour, combining adrenaline-pumping activities and breathtaking landscapes.",
+    "description": "Prepare for the journey of a lifetime with our Ultimate Adventure Expedition. Over the course of 7 days, you'll experience heart-pounding activities, explore diverse landscapes, and create memories that will last a lifetime.",
+    "imageCover": "ultimate-adventure-cover.jpg",
+    "locations": [
+        {
+            "_id": "5c8a3c94e421eb4dc1a8257a",
+            "description": "Kawarau Bridge Bungy",
+            "type": "Point",
+            "coordinates": [
+                168.6704,
+                -45.0322
+            ],
+            "activity": "Kick off your adventure with a thrilling bungy jump from the historic Kawarau Bridge.",
+            "day": 1
+        },
+        {
+            "_id": "5c8a3c94e421eb4dc1a8257b",
+            "description": "Milford Sound Cruise",
+            "type": "Point",
+            "coordinates": [
+                167.9257,
+                -44.6716
+            ],
+            "activity": "Experience the awe-inspiring beauty of Milford Sound with a scenic cruise surrounded by majestic fjords.",
+            "day": 3
+        },
+        {
+            "_id": "5c8a3c94e421eb4dc1a8257c",
+            "description": "Queenstown Skydiving",
+            "type": "Point",
+            "coordinates": [
+                168.7883,
+                -45.0215
+            ],
+            "activity": "Leap into the sky with a tandem skydiving experience over the stunning landscapes of Queenstown.",
+            "day": 5
+        },
+        {
+            "_id": "5c8a3c94e421eb4dc1a8257d",
+            "description": "Wanaka Hiking Adventure",
+            "type": "Point",
+            "coordinates": [
+                169.1525,
+                -44.7030
+            ],
+            "activity": "Embark on a challenging hike through the scenic landscapes of Wanaka, offering panoramic views.",
+            "day": 7
+        }
+    ]
+}

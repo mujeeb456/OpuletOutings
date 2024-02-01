@@ -1,0 +1,156 @@
+[
+    {
+        "name": "Mountain Majesty",
+        "duration": 7,
+        "maxGroupSize": 20,
+        "difficulty": "moderate",
+        "ratingsAverage": 4.5,
+        "ratingsQuantity": 45,
+        "price": 549,
+        "summary": "Explore the majestic peaks and valleys of the Rocky Mountains, Canada",
+        "description": "Embark on a thrilling adventure through the stunning landscapes of the Rocky Mountains. This journey will take you through challenging trails, serene alpine meadows, and picturesque mountain passes. Get ready for an unforgettable experience in the heart of nature.",
+        "imageCover": "tour-2-cover.jpg",
+        "images": [
+            "tour-2-1.jpg",
+            "tour-2-2.jpg",
+            "tour-2-3.jpg"
+        ],
+        "startdates": [
+            "2024-04-10,08:00",
+            "2024-05-15,08:00",
+            "2024-06-20,08:00"
+        ]
+    },
+    {
+        "name": "Coastal Explorer",
+        "duration": 6,
+        "maxGroupSize": 18,
+        "difficulty": "moderate",
+        "ratingsAverage": 4.8,
+        "ratingsQuantity": 52,
+        "price": 459,
+        "summary": "Discover the beauty of the rugged coastline in Iceland",
+        "description": "Hike along the mesmerizing coastline, where rugged cliffs meet the deep blue sea. This adventure offers a perfect blend of challenging trails and breathtaking ocean views. Immerse yourself in the coastal wonders and experience the beauty of nature like never before.",
+        "imageCover": "tour-3-cover.jpg",
+        "images": [
+            "tour-3-1.jpg",
+            "tour-3-2.jpg",
+            "tour-3-3.jpg"
+        ],
+        "startdates": [
+            "2024-07-05,09:00",
+            "2024-08-10,09:00",
+            "2024-09-15,09:00"
+        ]
+    },
+    {
+        "name": "Desert Expedition",
+        "duration": 8,
+        "maxGroupSize": 15,
+        "difficulty": "challenging",
+        "ratingsAverage": 4.6,
+        "ratingsQuantity": 40,
+        "price": 629,
+        "summary": "Journey through the vast and mystical desert landscapes in Morocco",
+        "description": "Embark on a challenging trek through the awe-inspiring desert landscapes. Traverse sandy dunes, explore hidden oases, and witness the breathtaking beauty of the desert under the starry night sky. This expedition promises an adventure of a lifetime.",
+        "imageCover": "tour-4-cover.jpg",
+        "images": [
+            "tour-4-1.jpg",
+            "tour-4-2.jpg",
+            "tour-4-3.jpg"
+        ],
+        "startdates": [
+            "2024-10-01,10:00",
+            "2024-11-05,10:00",
+            "2024-12-10,10:00"
+        ]
+    },
+    {
+        "name": "Alpine Retreat",
+        "duration": 4,
+        "maxGroupSize": 12,
+        "difficulty": "easy",
+        "ratingsAverage": 4.9,
+        "ratingsQuantity": 60,
+        "price": 349,
+        "summary": "Experience tranquility in the high alpine meadows of Switzerland",
+        "description": "Escape to the peaceful alpine meadows and enjoy a serene retreat surrounded by majestic peaks. This easy-going adventure is perfect for those seeking a rejuvenating experience in nature. Breathe in the crisp mountain air and immerse yourself in the beauty of the alpine landscape.",
+        "imageCover": "tour-5-cover.jpg",
+        "images": [
+            "tour-5-1.jpg",
+            "tour-5-2.jpg",
+            "tour-5-3.jpg"
+        ],
+        "startdates": [
+            "2025-01-15,11:00",
+            "2025-02-15,11:00",
+            "2025-03-15,11:00"
+        ]
+    },
+    {
+        "name": "Canyon Quest",
+        "duration": 6,
+        "maxGroupSize": 15,
+        "difficulty": "challenging",
+        "ratingsAverage": 4.7,
+        "ratingsQuantity": 55,
+        "price": 599,
+        "summary": "Embark on an adventurous journey through the Grand Canyon, USA",
+        "description": "Explore the breathtaking beauty of the Grand Canyon as you navigate through challenging trails and witness the majestic canyons carved by the Colorado River. This challenging quest offers a unique opportunity to experience the rugged terrain and awe-inspiring landscapes of one of America's natural wonders.",
+        "imageCover": "tour-6-cover.jpg",
+        "images": [
+            "tour-6-1.jpg",
+            "tour-6-2.jpg",
+            "tour-6-3.jpg"
+        ],
+        "startdates": [
+            "2025-04-10,12:00",
+            "2025-05-15,12:00",
+            "2025-06-20,12:00"
+        ]
+    },
+    {
+        "name": "Northern Lights Expedition",
+        "duration": 8,
+        "maxGroupSize": 20,
+        "difficulty": "moderate",
+        "ratingsAverage": 4.8,
+        "ratingsQuantity": 50,
+        "price": 679,
+        "summary": "Chase the Northern Lights in the Arctic Circle, Norway",
+        "description": "Embark on a mesmerizing journey to witness the enchanting Northern Lights in the Arctic Circle. Traverse through snowy landscapes, enjoy the crisp Arctic air, and marvel at the dancing lights in the night sky. This expedition promises an unforgettable adventure under the magical auroras.",
+        "imageCover": "tour-7-cover.jpg",
+        "images": [
+            "tour-7-1.jpg",
+            "tour-7-2.jpg",
+            "tour-7-3.jpg"
+        ],
+        "startdates": [
+            "2025-07-05,14:00",
+            "2025-08-10,14:00",
+            "2025-09-15,14:00"
+        ]
+    },
+    {
+        "name": "Tropical Paradise Trek",
+        "duration": 7,
+        "maxGroupSize": 18,
+        "difficulty": "easy",
+        "ratingsAverage": 4.9,
+        "ratingsQuantity": 48,
+        "price": 499,
+        "summary": "Hike through lush rainforests and pristine beaches in Costa Rica",
+        "description": "Immerse yourself in the vibrant biodiversity of Costa Rica as you trek through lush rainforests, discover hidden waterfalls, and relax on pristine beaches. This tropical adventure offers a perfect balance of nature and relaxation in one of the world's most biodiverse countries.",
+        "imageCover": "tour-8-cover.jpg",
+        "images": [
+            "tour-8-1.jpg",
+            "tour-8-2.jpg",
+            "tour-8-3.jpg"
+        ],
+        "startdates": [
+            "2025-10-01,16:00",
+            "2025-11-05,16:00",
+            "2025-12-10,16:00"
+        ]
+    }
+]
