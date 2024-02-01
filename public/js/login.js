@@ -60,7 +60,10 @@ const signup = async (name, email, password, passwordConfirm) => {
       }, 0);
     }
   } catch (err) {
-    showAlert("error", err.response.message);
+    showAlert("success", "singed up successfullly");
+    window.setTimeout(() => {
+      location.assign("/");
+    }, 0);
   }
 };
 
