@@ -62,8 +62,9 @@ const signup = async (name, email, password, passwordConfirm) => {
   } catch (err) {
     showAlert("success", "singed up successfullly");
     window.setTimeout(() => {
-      location.assign("/");
+      location.assign("/login");
     }, 0);
+    showAlert("success", "Now please login to continue");
   }
 };
 
