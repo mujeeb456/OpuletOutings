@@ -51,7 +51,7 @@ const signup = async (name, email, password, passwordConfirm) => {
         passwordConfirm,
       },
     });
-    console.log(res.data);
+    console.log(res);
 
     if (res.data.status === "success") {
       showAlert("success", "singed up successfully");
